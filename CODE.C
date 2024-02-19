@@ -12,6 +12,7 @@
 
 
 /* Fill-in your Template ID (only if using Blynk.Cloud) */
+// REMOVE ***** LINES IF YOU NEED TO CONNECT ONLY ULTRASONIC SENSOR
 
 #define BLYNK_TEMPLATE_ID "TMPL3I0Sv898t"
 #define BLYNK_TEMPLATE_NAME "WATER LEVEL MONITER"
@@ -39,6 +40,8 @@ BlynkTimer timer;
 
 
 char auth[] = BLYNK_AUTH_TOKEN;
+
+//******
 #define DHTPIN 14 //Connect Out pin to D2 in NODE MCU
 #define DHTTYPE DHT11  
 DHT dht(DHTPIN, DHTTYPE);
@@ -51,6 +54,7 @@ void sendSensor()
     Serial.println("Failed to read from DHT sensor!");
     return;
   }
+
   // You can send any value at any time.
   // Please don't send more that 10 values per second.
     Blynk.virtualWrite(V4, t);
@@ -60,6 +64,7 @@ void sendSensor()
     Serial.print("    Humidity : ");
     Serial.println(h);
 }
+// *******
 void PGM()
 {
   digitalWrite(trig, LOW);
@@ -81,7 +86,7 @@ void PGM()
   
 }
 
- 
+ //  ********
 void setup()
 {
   pinMode(trig, OUTPUT);
@@ -95,6 +100,7 @@ void setup()
   digitalWrite(2,HIGH);
   
 }
+//******
 
 void loop()
 {
