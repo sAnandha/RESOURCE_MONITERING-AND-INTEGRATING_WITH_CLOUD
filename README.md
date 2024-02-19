@@ -1,7 +1,7 @@
 # RESOURCE_MONITERING-AND-INTEGRATING_WITH_CLOUD
 Resource monitoring using IoT (Internet of Things) and microcontrollers involves the deployment of sensor nodes equipped with various sensors to collect data on resources such as energy, water, air quality, temperature, humidity, and more enabling real-time data collection, analysis, and visualization..
 
-#CODE EXPLANATION 
+# CODE EXPLANATION 
 The code we've created helps monitor the water level in a tank and keeps track of temperature and humidity in a room. It uses an ESP32 microcontroller, which is like the brain of the system.
 
 We have two types of sensors:
