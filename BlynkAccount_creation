@@ -1,0 +1,45 @@
+# Creating a New Blynk Console for the Project
+
+Creating a New Blynk Console for the Project
+
+1. Account Creation:
+
+Sign in to Blynk Cloud using your email ID.
+2. Adding a New Template:
+
+Click on "Add New Template" on the left side of the panel.
+Name the device as "WISH" and select hardware as ESP32 with Connection Type as WIFI/Bluetooth.
+3. Datastream Setup:
+
+Move to the Datastream section to create Virtual Pins.
+Click "New Datastream" and assign Virtual Pins (V1-V5) as follows:
+V1, V2, V3 for Ultrasonic Sensor (V1 as Integer, V2, V3 as String).
+V4 and V5 for Temperature Sensor (V4, V5 as Double) with units in percentage.
+4. Web Dashboard Configuration:
+
+Add widgets from the left:
+Gauge Widget: Add for V1 (Ultrasonic Sensor).
+Label Widget: Add for V2 (Ultrasonic Sensor).
+Gauge Widget: Add for V4 (Temperature Sensor).
+Gauge Widget: Add for V5 (Temperature Sensor).
+Adjust and customize the widgets according to your preference.
+5. Adding Console:
+
+Move to the Console section and click "New Device".
+Choose the template created earlier.
+You'll receive the Template ID, Device Name, and Authentication Token. Save this information.
+6. Mobile App Configuration:
+
+Install the Blynk IoT mobile app from the Play Store.
+Sign in to your account.
+In the Console section, choose "Edit" at the top.
+Tap the plus icon and add the same widgets used in the Web Dashboard.
+Assign the data stream to each widget as specified in the Web Dashboard.
+7. Automation:
+
+In the Automation section, specify any requirements for automation.
+You will receive notifications based on the specified parameters.
+
+
+
+    
