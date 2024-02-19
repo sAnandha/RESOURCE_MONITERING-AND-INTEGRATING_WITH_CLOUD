@@ -14,10 +14,10 @@
 /* Fill-in your Template ID (only if using Blynk.Cloud) */
 // REMOVE ***** LINES IF YOU NEED TO CONNECT ONLY ULTRASONIC SENSOR
 
-#define BLYNK_TEMPLATE_ID "TMPL3I0Sv898t"
-#define BLYNK_TEMPLATE_NAME "WATER LEVEL MONITER"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
 
-#define BLYNK_AUTH_TOKEN "_C5qtqNL6lsNBCMPTrbGCSHDXE7Kc2CJ"
+#define BLYNK_AUTH_TOKEN ""
 
 
 #include <DHT.h>
