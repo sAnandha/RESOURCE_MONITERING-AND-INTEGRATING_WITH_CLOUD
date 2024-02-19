@@ -18,10 +18,10 @@ V4 and V5 for Temperature Sensor (V4, V5 as Double) with units in percentage.
 4. Web Dashboard Configuration:
 
 Add widgets from the left:
-Gauge Widget: Add for V1 (Ultrasonic Sensor).
-Label Widget: Add for V2 (Ultrasonic Sensor).
-Gauge Widget: Add for V4 (Temperature Sensor).
-Gauge Widget: Add for V5 (Temperature Sensor).
+Gauge Widget: Add  V1 in DataStream  (Ultrasonic Sensor).
+Label Widget:  Add  V2 in DataStream (Ultrasonic Sensor).
+Gauge Widget: Add  V4 in DataStream (Temperature Sensor).
+Gauge Widget: Add  V5 in DataStream (Temperature Sensor).
 Adjust and customize the widgets according to your preference.
 5. Adding Console:
 
